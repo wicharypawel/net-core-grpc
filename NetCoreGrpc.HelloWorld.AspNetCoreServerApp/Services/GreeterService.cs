@@ -6,7 +6,6 @@ namespace NetCoreGrpc.HelloWorld.AspNetCoreServerApp.Services
 {
     public class GreeterService : Greeter.GreeterBase
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Code Quality", "IDE0052:Remove unread private members")]
         private readonly ILogger<GreeterService> _logger;
         public GreeterService(ILogger<GreeterService> logger)
         {

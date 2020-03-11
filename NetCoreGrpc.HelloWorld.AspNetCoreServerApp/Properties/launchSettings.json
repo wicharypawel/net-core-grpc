@@ -3,7 +3,7 @@
     "NetCoreGrpc.HelloWorld.AspNetCoreServerApp": {
       "commandName": "Project",
       "launchBrowser": false,
-      "applicationUrl": "http://localhost:50051",
+      "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

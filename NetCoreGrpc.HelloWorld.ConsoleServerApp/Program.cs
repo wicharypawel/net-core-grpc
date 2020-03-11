@@ -6,13 +6,13 @@ namespace NetCoreGrpc.HelloWorld.ConsoleServerApp
 {
     public class Program
     {
-        const int Port = 50051;
+        const int Port = 5000;
 
         public static void Main()
         {
             var server = new Server
             {
-                Services = { Greeter.BindService(new GreeterGrpcService()) },
+                Services = { Greeter.BindService(new GreeterService()) },
                 Ports = { new ServerPort("localhost", Port, ServerCredentials.Insecure) }
             };
             server.Start();

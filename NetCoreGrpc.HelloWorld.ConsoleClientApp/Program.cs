@@ -8,7 +8,7 @@ namespace NetCoreGrpc.HelloWorld.ConsoleClientApp
     {
         public static void Main()
         {
-            var channel = new Channel("127.0.0.1:50051", ChannelCredentials.Insecure);
+            var channel = new Channel("127.0.0.1:5000", ChannelCredentials.Insecure);
             var client = new Greeter.GreeterClient(channel);
             var user = "Pawel";
             var reply = client.SayHello(new HelloRequest { Name = user });
