@@ -4,7 +4,7 @@ using Helloworld;
 
 namespace NetCoreGrpc.HelloWorld.ConsoleServerApp
 {
-    internal class GreeterGrpcService : Greeter.GreeterBase
+    internal class GreeterService : Greeter.GreeterBase
     {
         public override Task<HelloReply> SayHello(HelloRequest request, ServerCallContext context)
         {
