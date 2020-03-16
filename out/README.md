@@ -1,0 +1,1 @@
+Note: When using VS Code integration of this repository, generated code should appear in this directory

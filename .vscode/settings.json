@@ -1,0 +1,11 @@
+{
+    "protoc": {
+        "compile_on_save": true,
+        "options": [
+            "--proto_path=.",
+            "--csharp_out=out",
+            "--grpc_out=out",
+            "--plugin=protoc-gen-grpc=tools/grpc_csharp_plugin.exe"
+        ]
+    }
+}

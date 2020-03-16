@@ -22,6 +22,8 @@ Examples were originally copied from https://github.com/grpc/grpc/tree/master/ex
 
 Simply rebuild solution. Proto files will be build by `Grpc.Tools` or `Grpc.AspNetCore` package (depending on example you pick).
 
+More in depth configuration details in [README_TOOLS.md](README_TOOLS.md)
+
 ## Sources
 
 - https://grpc.io/
