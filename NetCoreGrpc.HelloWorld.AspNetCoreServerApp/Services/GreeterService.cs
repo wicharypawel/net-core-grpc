@@ -1,5 +1,6 @@
 using System.Threading.Tasks;
 using Grpc.Core;
+using Helloworld;
 using Microsoft.Extensions.Logging;
 
 namespace NetCoreGrpc.HelloWorld.AspNetCoreServerApp.Services
